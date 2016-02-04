@@ -1,4 +1,6 @@
 Energy.js
 ==========
 
-Babylon.js physic engine.
+webgl physic engine.
+
+Prewien at http://www.energy-js.com
