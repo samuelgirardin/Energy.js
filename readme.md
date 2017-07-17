@@ -3,4 +3,4 @@ Energy.js
 
 webgl physic engine.
 
-Prewien at http://www.energy-js.com
+release 09/2017 - http://www.visualiser.fr/page.php?id=Energy.js
