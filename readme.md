@@ -17,7 +17,7 @@ EnergyJS is a bit different. Unlike Cannon&Oimo, EnergyJS is not 100% written in
 * [ballJoint](http://www.visualiser.fr/energy/index.php?ID=13)
 * [woodMachine](http://www.visualiser.fr/energy/index.php?ID=12)
 
-## Features
+## Basic samples
 this list is not exhaustive. To be completed.
 
 **dynamic body proporties**
