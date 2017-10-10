@@ -1,63 +1,46 @@
-Energy.js
-==========
 
-webgl physic engine.
+# EnergyJS
 
-examples (alpha preview) : 
+## Introduction
 
-<p>
-	<a href="http://www.visualiser.fr/energy/index.php?ID=2" rel="_blank">Tuto1_friction</a>
-</p>
+EnergyJS is a  3d physic engine. One more ? We already have CannonJS & OimoJS working well with BJS physic  plugin. So why working on a third one ? 
+EnergyJS is a bit different. Unlike Cannon&Oimo, EnergyJS is not 100% written in classic JS. EnergyJS is a port of the c++ project Open dynamic Engine by Russel Smith made possible with the  Emscripten framework. Basically you can resume this process by  :  ode c++ sources → Emscripten compiler → output low level javascript file. This last file is a 'clone' of the c++ engine, it will behave exactly like  a c++ build. In order to use it with babylonjs we need a typescrpit interface/wrapper to communincate with it. 
 
-<p>
-	<a href="http://www.visualiser.fr/energy/index.php?ID=4" rel="external nofollow">Tuto2_friction2</a>
-</p>
+* Pros : really fast, high accuracy, good stacking, well documented (ode's doc), asm.js & webAssembly ready
 
-<p>
-	<a href="http://www.visualiser.fr/energy/index.php?ID=5" rel="external nofollow">Tuto3_bounce</a>
-</p>
+* Cons : js sources unreadable, c++ to js workflow is not public at the moment, bjs physic plugin will not be avalable during the alpha version (energy code may change).
 
-<p>
-	<a href="http://www.visualiser.fr/energy/index.php?ID=6" rel="external nofollow">Tuto4_rolling_friction</a>
-</p>
+## Demos
 
-<p>
-	<a href="http://www.visualiser.fr/energy/index.php?ID=7" rel="external nofollow">Tuto5_rolling_friction2</a>
-</p>
+* [car & trailers](http://www.visualiser.fr/energy/index.php?ID=1)
+* [trimeshes collision](http://www.visualiser.fr/energy/index.php?ID=15)
+* [ballJoint](http://www.visualiser.fr/energy/index.php?ID=13)
+* [woodMachine](http://www.visualiser.fr/energy/index.php?ID=12)
 
-<p>
-	<a href="http://www.visualiser.fr/energy/index.php?ID=8" rel="external nofollow">Tuto6_contact_cfm_erp</a>
-</p>
+## Features
+this list is not exhaustive. To be completed.
 
-<p>
-	<a href="http://www.visualiser.fr/energy/index.php?ID=9" rel="external nofollow">Tuto7_contact_cfm_erp2</a>
-</p>
+**dynamic body proporties**
+* [friction](http://www.visualiser.fr/energy/index.php?ID=2)
+* [friction2](http://www.visualiser.fr/energy/index.php?ID=4)
+* [bounce](http://www.visualiser.fr/energy/index.php?ID=5)
+* [rolling_friction](http://www.visualiser.fr/energy/index.php?ID=6)
+* [rolling_friction2](http://www.visualiser.fr/energy/index.php?ID=7)
+* [contact_cfm_erp](http://www.visualiser.fr/energy/index.php?ID=8)
+* [contact_cfm_erp2](http://www.visualiser.fr/energy/index.php?ID=9)
+* [motion](http://www.visualiser.fr/energy/index.php?ID=10)
+* [auto_disable_bodies](http://www.visualiser.fr/energy/index.php?ID=11)
 
-<p>
-	<a href="http://www.visualiser.fr/energy/index.php?ID=10" rel="external nofollow">Tuto8_motion</a>
-</p>
+## Getting started
 
-<p>
-	<a href="http://www.visualiser.fr/energy/index.php?ID=11" rel="external nofollow">Tuto1_auto_disable_body</a>
-</p>
 
-<p>
-	<a href="http://www.visualiser.fr/energy/index.php?ID=12" rel="external nofollow">WoodMachine</a>
-</p>
 
-<p>
-	<a href="http://www.visualiser.fr/energy/index.php?ID=13" rel="external nofollow">BallJoint</a>
-</p>
 
-<p>
-	<a href="http://www.visualiser.fr/energy/index.php?ID=14" rel="external nofollow">Trimeshes</a>
-</p>
 
-<p>
-	<a href="http://www.visualiser.fr/energy/index.php?ID=0" rel="external nofollow">Vehicle</a>   (maybe you need to refresh the html page - loading is async and I forgot to fix that,, same for v+trailers)
-</p>
 
-<p>
-	<a href="http://www.visualiser.fr/energy/index.php?ID=1" rel="external nofollow">Vehicle+trailers</a> (arrow key to control the vehicle, d to flip the vehicle)
-</p>
+
+
+
+
+
 
