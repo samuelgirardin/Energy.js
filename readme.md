@@ -35,6 +35,8 @@ this list is not exhaustive. To be completed.
 ## Getting started
 include in your bjs project the 2 js files located inside dist/ or grunt it ,must include babylon.d.ts
 
+* [babylonjs playground demo](http://www.babylonjs-playground.com/#A5NDZJ#31)
+
 
 
 
