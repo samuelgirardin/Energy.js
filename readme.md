@@ -1,4 +1,5 @@
 
+
 # EnergyJS
 
 ## Introduction
@@ -32,6 +33,7 @@ this list is not exhaustive. To be completed.
 * [auto_disable_bodies](http://www.visualiser.fr/energy/index.php?ID=11)
 
 ## Getting started
+include in your bjs project the 2 js files located inside dist/ or grunt it ,must include babylon.d.ts
 
 
 
