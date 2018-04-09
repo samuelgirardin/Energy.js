@@ -1,4 +1,7 @@
-﻿class DynamicHeightmap extends DynamicObject {
+﻿
+// Created samuel girardin @samuelgirardin - 2018
+// License Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License.
+class DynamicHeightmap extends DynamicObject {
 
    // private heightid: Pointer;
     private dxHeightfieldData: DxHeightfieldData; 

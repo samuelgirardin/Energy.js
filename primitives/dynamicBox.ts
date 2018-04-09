@@ -1,4 +1,7 @@
-﻿class DynamicBox extends DynamicObject {
+﻿
+// Created samuel girardin @samuelgirardin - 2018
+// License Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License.
+class DynamicBox extends DynamicObject {
 
     private lx: number = 0;
     private ly: number = 0;

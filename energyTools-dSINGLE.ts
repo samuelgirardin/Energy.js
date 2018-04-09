@@ -1,4 +1,8 @@
-﻿class EnergyTools_dSINGLE {
+﻿
+
+// Created samuel girardin @samuelgirardin - 2018
+// License Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License.
+class EnergyTools_dSINGLE {
 
      // emscripten -  precision.h set dSINGLE  -> f32 faster but  less accurate - Need energyjs32.js
 

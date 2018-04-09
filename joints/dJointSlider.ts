@@ -1,4 +1,7 @@
-﻿class DJointSlider extends Djoint {
+﻿
+// Created samuel girardin @samuelgirardin - 2018
+// License Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License.
+class DJointSlider extends Djoint {
 
 
     constructor(dxWorld: DxWorld, dxJointGRoup: DxJointGroup, uniqID : number , name: string = "") {

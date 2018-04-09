@@ -1,4 +1,7 @@
-﻿class DynamicRay extends DynamicObject {
+﻿
+// Created samuel girardin @samuelgirardin - 2018
+// License Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License.
+class DynamicRay extends DynamicObject {
 
     public dxSpace: DxSpace;
     public dxGeom: DxGeom;

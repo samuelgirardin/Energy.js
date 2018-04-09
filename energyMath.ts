@@ -1,4 +1,8 @@
-﻿class EnergyMath {
+﻿
+// Created samuel girardin @samuelgirardin - 2018
+// License Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License.
+
+class EnergyMath {
 
     static n_ptr: Vector3_Ptr;
     static p_ptr: Vector3_Ptr;

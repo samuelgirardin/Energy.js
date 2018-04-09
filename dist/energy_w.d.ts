@@ -1,3 +1,6 @@
+
+// Created samuel girardin @samuelgirardin - 2018
+// License Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License.
 declare class PhysicMaterial {
     dxMaterial: DxMaterial;
     name: string;

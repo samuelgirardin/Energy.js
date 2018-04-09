@@ -1,4 +1,7 @@
-﻿class DynamicCylinder extends DynamicObject {
+﻿
+// Created samuel girardin @samuelgirardin - 2018
+// License Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License.
+class DynamicCylinder extends DynamicObject {
 
 
     private radius:number; 

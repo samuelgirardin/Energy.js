@@ -1,4 +1,7 @@
-﻿class DJointBall extends Djoint {
+﻿
+// Created samuel girardin @samuelgirardin - 2018
+// License Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License.
+class DJointBall extends Djoint {
 
     private anchor: Vector3_Ptr;
     private anchor2: Vector3_Ptr;
