@@ -1,6 +1,6 @@
 
 
-# EnergyJS
+# EnergyJS [![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ## Introduction
 
@@ -33,7 +33,7 @@ this list is not exhaustive. To be completed.
 * [auto_disable_bodies](http://www.visualiser.fr/energy/index.php?ID=11)
 
 ## Getting started
-include in your bjs project the 2 js files located inside dist/ or grunt it ,must include babylon.d.ts
+include in your bjs project the 2 js files located inside dist/ or grunt it(must include babylon.d.ts)
 
 * [babylonjs playground demo](http://www.babylonjs-playground.com/#A5NDZJ#31)
 
