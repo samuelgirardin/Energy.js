@@ -92,7 +92,7 @@
     private control(): void {
 
 
-        document.getElementById("control").innerHTML = "energy.js - arrow keys to drive - clic first inside html page";
+        document.getElementById("control").innerHTML = "energy.js - arrow keys to drive - click first inside html page";
 
 
        // this.scene.actionManager = new BABYLON.ActionManager(this.scene);
